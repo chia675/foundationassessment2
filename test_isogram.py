@@ -13,7 +13,7 @@ class IsIsogramTestCase(unittest.TestCase):
 
         self.assertTrue(is_isogram(" "), "Empty string is considered an isogram")
 
-        self.assertTrue(is_isogram("x"), "Single character is considered an isogram")
+        self.assertTrue(is_isogram("z"), "Single character is considered an isogram")
 
 if __name__ == '__main__':
     unittest.main()
